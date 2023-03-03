@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build:rspack": "rspack build -c ./rspack/back.config.js",
     "build": "npx nx build rspack",
     "start": "npx nx serve rspack"
   },
